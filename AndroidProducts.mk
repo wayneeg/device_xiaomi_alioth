@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2021 The AospExtended Project
+# Copyright (C) 2021 The Legion Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_alioth.mk
+    $(LOCAL_DIR)/legion_alioth.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_alioth-user \
-    aosp_alioth-userdebug \
-    aosp_alioth-eng
+    legion_alioth-user \
+    legion_alioth-userdebug \
+    legion_alioth-eng
