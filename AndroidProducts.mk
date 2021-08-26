@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2021 The Legion Project
+# Copyright (C) 2021 The awaken Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/legion_alioth.mk
+    $(LOCAL_DIR)/awaken_alioth.mk
 
 COMMON_LUNCH_CHOICES := \
-    legion_alioth-user \
-    legion_alioth-userdebug \
-    legion_alioth-eng
+    awaken_alioth-user \
+    awaken_alioth-userdebug \
+    awaken_alioth-eng
