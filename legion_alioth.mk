@@ -30,4 +30,4 @@ $(call inherit-product-if-exists, vendor/legion/config/faceunlock.mk)
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SHIP_GCAM_GO := true
 LEGION_MAINTAINER := Waynee
-WITH_GAPPS := true
+
