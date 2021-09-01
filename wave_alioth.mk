@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The legionExtended Project
+# Copyright (C) 2021 The waveExtended Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -8,10 +8,10 @@
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
 # Inherit some common Aosp stuff.
-$(call inherit-product, vendor/legion/config/common_full_phone.mk)
+$(call inherit-product, vendor/wave/configs/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := legion_alioth
+PRODUCT_NAME := wave_alioth
 PRODUCT_DEVICE := alioth
 PRODUCT_BRAND := POCO
 PRODUCT_MANUFACTURER := Xiaomi
@@ -25,9 +25,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BOARD_PLATFORM := kona
 PRODUCT_USES_QCOM_HARDWARE := true
 
-# Legion Stuffs
-$(call inherit-product-if-exists, vendor/legion/config/faceunlock.mk)
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_SHIP_GCAM_GO := true
-LEGION_MAINTAINER := Waynee
-
+# wave Stuffs
+TARGET_OPT_OUT_GCAM_GO := true
